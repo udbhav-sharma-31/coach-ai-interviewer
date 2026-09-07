@@ -1,6 +1,10 @@
-def main():
-    print("Real-Time AI Interviewer starting...")
+from fastapi import FastAPI
+
+app = FastAPI(title="Real-Time AI Interviewer")
 
 
-if __name__ == "__main__":
-    main()
+@app.get("/")
+def home():
+    return {
+        "message": "Real-Time AI Interviewer API is running!"
+    }
