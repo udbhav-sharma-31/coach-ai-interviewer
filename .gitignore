@@ -24,3 +24,12 @@ __pycache__/
 # Environment files
 .env.*
 !.env.example
+
+# Uploaded candidate resumes
+data/resumes/
+
+# Local development backups
+backend/evaluation/*_backup.py
+
+# Large local training/interview dataset
+data/interview_answers.json

@@ -1,0 +1,105 @@
+.coach-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.coach-logo-mark {
+  display: block;
+  flex-shrink: 0;
+  overflow: visible;
+}
+
+.coach-logo-wordmark {
+  display: flex;
+  align-items: baseline;
+  gap: 5px;
+
+  font-weight: 800;
+  letter-spacing: 2px;
+  line-height: 1;
+}
+
+.coach-logo-wordmark span {
+  color: #f5f7ff;
+}
+
+.coach-logo-wordmark strong {
+  background: linear-gradient(
+    90deg,
+    #8b5cf6,
+    #3b82f6,
+    #06d9ff
+  );
+
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+
+/* =========================
+   SMALL
+========================= */
+
+.coach-logo-sm .coach-logo-mark {
+  width: 42px;
+  height: 42px;
+}
+
+.coach-logo-sm .coach-logo-wordmark {
+  font-size: 16px;
+}
+
+
+/* =========================
+   MEDIUM
+========================= */
+
+.coach-logo-md .coach-logo-mark {
+  width: 52px;
+  height: 52px;
+}
+
+.coach-logo-md .coach-logo-wordmark {
+  font-size: 21px;
+}
+
+
+/* =========================
+   LARGE
+========================= */
+
+.coach-logo-lg .coach-logo-mark {
+  width: 76px;
+  height: 76px;
+}
+
+.coach-logo-lg .coach-logo-wordmark {
+  font-size: 30px;
+}
+
+
+/* =========================
+   ICON ONLY
+========================= */
+
+.coach-logo-icon-only {
+  gap: 0;
+}
+
+.coach-logo-icon-only.coach-logo-sm .coach-logo-mark {
+  width: 42px;
+  height: 42px;
+}
+
+.coach-logo-icon-only.coach-logo-md .coach-logo-mark {
+  width: 52px;
+  height: 52px;
+}
+
+.coach-logo-icon-only.coach-logo-lg .coach-logo-mark {
+  width: 76px;
+  height: 76px;
+}
